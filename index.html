@@ -5,11 +5,11 @@
     <!--@@@@@@@@@@@@@@@@@@@@@@@:_76_SHARKY_:@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practicing HTML & CSS</title>
+    <title>HTML References</title>
     <meta name="author" content="76Sharky" />
     <meta
         name="description" 
-        content="testing elements and attributes of html" />
+        content="testing elements and attributes of html - Goal is to show examples of elements and attributes and how they appear on a page before css is added" />
 
     <!--connected reference documents-->
     <link rel="stylesheet" href="style.css" />
@@ -17,12 +17,96 @@
 </head>
     <!--text elements and hierarchy-->
     <h1>There should only be 1 "h1" element per page</h1>
+    <hr />
     <h2>H2 Element</h2>
     <h3>H3 Element</h3>
     <h4>H4 Element</h4>
     <h5>H5 Element</h5>
     <h6>H6 Element</h6>
-    <p>P Element</p>
+    <p>P Element - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid officiis cum nesciunt voluptates temporibus quia vel perferendis? Corporis, nostrum amet adipisci blanditiis cumque, quam, dignissimos distinctio odio fugiat id facilis!</p>
+    <hr />
+    
+    <!--text elements Emphasis, Strong, Mark, Span or Italics, Bold, or Underline-->
+    <h3>Text formating: Try to use em, strong, mark or span instead of b, i, or u. - h3</h3>
+    <p><em>screen readers make it hard for user to understand why something it bold, italic, or underlined</em> -p element</p>
+    <br />
+    <p>P Element adding <em>"emphasis - em"</em> and <strong>"some strong - strong"</strong> importance to text using the <em>&ltem&gt</em> and <strong>&ltstrong&gt</strong> element</p>
+
+    <p><em>This is using the &ltem&gt element</em></p>
+    <p><i>This is using the &lti&gt element</i></p>
+    <p><stong>This is using the &ltstrong&gt element</strong></p>
+    <p><b>This is using the &ltb&gt element</b></p>
+    <p><mark>This is using the &ltmark&gt element</mark></p>
+    <p><u>This is using the &ltu&gt element</u></p>
+    <p><span>This is using the &ltspan&gt element</span> - SPAN element doesn't appear different than normal text. It is used with in-line text similar to how DIV is used with a block-level element and modified with attributes and CSS.</p>
+    <hr />
+
+    <!--format elements-->
+    <h3>Lists - h3</h3>
+    <!--unordered list-->
+    <h4>unordered list - h4</h4>
+    <ul>
+        <li>milk - ul/li</li>
+        <li>eggs - ul/li</li>
+        <li>bread - ul/li</li>
+        <li>hummus - ul/li</li>
+    </ul>
+    <!--ordered list-->
+    <h4>ordered list - h4</h4>
+    <ol>
+        <li>Drive to the end of the road - ol/li</li>
+        <li>Turn right - ol/li</li</li>
+        <li>Go straight across the first two roundabouts - ol/li</li</li>
+        <li>Turn left at the third roundabout - ol/li</li</li>
+        <li>The school is on your right, 300 meters up the road - ol/li</li</li>
+    </ol>
+    <!--Description list-->
+    <h4>Description list - h4</h4>
+    <dl>
+        <dt>Albacore Tuna - dl/dt</li</dt>
+        <dd>The albacore is a very fast swimmer. - dl/dd</dd>
+        <dt>Asian Carp - dl/dt</dt>
+        <dd>Asian carp can consume 40% of their body weight in food a day! - dl/dd</dd>
+        <dt>Barracuda - dl/dt</dt>
+        <dd>Can grow to nearly 2 meters long! - dl/dd</dd>
+    </dl>
+    <!--Nesting lists-->
+    <h4>Nesting Lists - h4</h4>
+    <ol>
+        <li>Remove the skin from the garlic, and chop coarsely. - ol/li</li>
+        <li>Remove all the seeds and stalk from the pepper, and chop coarsely. - ol/li</li>
+        <li>Add all the ingredients into a food processor. - ol/li</li>
+        <li>
+          Process all the ingredients into a paste. - ol/li
+          <ul>
+            <li>
+              If you want a coarse "chunky" hummus, process it for a short time. - li/ul/li
+            </li>
+            <li>If you want a smooth hummus, process it for a longer time. - li/ul/li</li>
+          </ul>
+        </li>
+    </ol>
+    <hr />
+    <!--Advanced Text Formatting-->
+    <h4>Advanced Text Formatting - h4</h4>
+        <dl>
+            <dt>Sup and Sub</dt>
+                <dd>This is demonstrating the <sup>&ltsup&gt</sup> element and <sub>&ltsub&gt</sub> element</dd>
+            <br />
+            <dt>Representing Computer Code</dt>
+                <dd><code>&ltCode&gt - This is marking up using &ltcode&gt Element</code></dd>
+                <dd><pre>&ltpre&gt - This is using the &ltpre&gt element.  where
+                inputs match the whitespace used      in    the editor</pre></dd>
+                <dd><var>&ltvar&gt - this is using the &ltvar&gt Element - specifically used for marking up variable names</var></dd>
+                <dd><kbd>&ltkbd&gt - this is for marking up keyboard and other input entered into the computer</kbd></dd>
+                <dd><samp>&ltsamp&gt - this is for showing example output of a computer program</samp></dd>
+            <br />
+            <dt>Marking up Times & Dates</dt>
+                <dd>Simple Date: <time datetime="2016-01-28">20 January 2016</time></dd>
+                <dd>Year & Month: <time datetime="2016-01">January 16</time></dd>
+        </dl>
+    <hr />
+
 
 <body>
     
